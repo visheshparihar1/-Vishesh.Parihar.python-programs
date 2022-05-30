@@ -1,0 +1,3 @@
+x = ("aman_srivastava")
+y = reversed(x)
+print(tuple(y)
