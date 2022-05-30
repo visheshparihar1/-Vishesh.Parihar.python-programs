@@ -1,0 +1,3 @@
+str=input()
+ste1=reversed(str)
+print(''.join(ste1))
