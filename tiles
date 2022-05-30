@@ -1,0 +1,10 @@
+L=int(input('enter length of floor'))
+B=int(input('enter breadth of floor'))
+l=int(input('enter length of tiles'))
+b=int(input('enter breadth of tiles'))
+
+#tiles required
+
+n=L*B/l*b
+
+print("the number of tiles required is",int(n))
