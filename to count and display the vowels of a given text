@@ -1,0 +1,10 @@
+str=input()
+ls=[]
+count=0
+vowel='aeiouAEIOU'
+for i in str:
+    if i in vowel:
+        count=count+1
+        ls.append(i)
+
+print(ls,count)
