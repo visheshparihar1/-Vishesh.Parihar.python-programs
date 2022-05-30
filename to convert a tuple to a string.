@@ -1,0 +1,4 @@
+tup = ('a', 'm', 'a', 'n', ' ', 's', 'r', 'i', 'v')
+str =  ''.join(tup)
+print(str)
+
