@@ -1,0 +1,10 @@
+m = int(input('enter the shopping amount'))
+if m>25000:
+    print('Your category is gold')
+    print ('amount to be paid',m-(20/100)*m)
+elif m>10000 and m<25000:
+    print('Your category is Silver')
+    print('amount to be paid', m-(10/100)*m)
+else:
+    print('Your category is Bronze')
+    print('Amount to be paid', m-(5/100)*m)
