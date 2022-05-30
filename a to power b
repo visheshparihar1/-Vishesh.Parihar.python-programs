@@ -1,0 +1,4 @@
+a = int(input('Enter The Base Num'))
+b = int(input('enter the power'))       
+
+print(a**b)
